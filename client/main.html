@@ -3,23 +3,24 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
+  <h1>Welcome to SMTP Checker!</h1>
 
   {{> hello}}
   {{> info}}
 </body>
 
 <template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+    <p>You can test SMTP Credentials in Minutes.</p>
+    <button>Send Email</button>
 </template>
 
 <template name="info">
-  <h2>Learn Meteor!</h2>
-  <ul>
-    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
-    <li><a href="http://guide.meteor.com" target="_blank">Follow the Guide</a></li>
-    <li><a href="https://docs.meteor.com" target="_blank">Read the Docs</a></li>
-    <li><a href="https://forums.meteor.com" target="_blank">Discussions</a></li>
-  </ul>
+  <h2>Steps?</h2>
+  <ol>
+    <li>Add a file named <code>settings.json (on root)</code></li>
+    <li>Copy all contents of <code>sample.json</code>in <code>sample.json</code></li>
+    <li>Replace the Dummy credentials with original ones</li>
+    <li><code>run meteor --settings settings.json</code></li>
+    <li>Happy Coding!</li>
+  </ol>
 </template>

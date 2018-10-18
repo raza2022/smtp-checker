@@ -1,0 +1,13 @@
+{
+  "AWS": {
+    "AWSRegion": "us-east-1",
+    "SESUser": "YOURSESUSER",
+    "SESPASSWORD": "YOURSESPASSWORD"
+  },
+  "zoho":{
+    "userName": "your@email.com",
+    "secret": "YOURPASSWORD"
+  },
+
+  "Environment": "development"
+}
